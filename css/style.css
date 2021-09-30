@@ -1,0 +1,102 @@
+@font-face{
+	font-family: poppins;
+	src:local('Poppins-Light'),url('../libs/fonts/poppins/Poppins-Light.ttf') format('woff');
+}
+
+
+body{
+    width: 100%;
+   background:url(../img/imm.jpg);
+   background-repeat: no-repeat;
+    font-family: poppins;
+}
+.covidupdate{
+    height: 40px;
+   
+}
+.covidupdate h5{
+    margin-top: 3px;
+    color:hsl(150, 100%, 30%);
+    font-size: 20px;
+    padding-left: 180px;
+    float: left;
+}
+
+.covidupdate button{
+    width: 150px;
+    height: 35px;
+    background-color:#26AF6A;
+    text-align:center;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.clr{
+    clear: both;
+}
+
+.plans-container{
+    margin: 0 180px;
+}
+
+.plans-container h2{
+    width: 250px;
+    margin-top: 10px; 
+    background-color: aliceblue; 
+    border-radius: 20px;
+}
+.plans-container h5{
+    width: 225px;
+    background-color: aliceblue; 
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 80px;
+}
+
+ .plans-container > h3{ 
+     margin: 0;
+    border-bottom: 1px solid #000000;
+   text-align: center;
+   font-weight: 900;
+   font-size: 25px;
+}
+
+.plans{
+    width: 300px;
+    height: 450px;
+    background:rgba(142,233,223,0.8);
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    margin:9px 20px 60px 0;
+    font-family: poppins;
+
+    float: left;
+}
+
+.plans h3{
+    text-align: center;
+}
+
+.plans ul li{
+    width: 120px;
+    list-style-type:none;
+    padding:0 60px;
+    border-bottom: 1px solid black;
+}
+
+.plans a{  
+    text-decoration: none;
+    margin-left: 110px;
+    padding: 10px;
+    background-color:#000000;
+    color: #fff;
+    border-radius: 50px;
+}
+
+
+
+

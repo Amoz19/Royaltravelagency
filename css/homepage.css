@@ -1,0 +1,354 @@
+@font-face{
+	font-family: poppins;
+	src:local('Poppins-Light'),url('../libs/fonts/poppins/Poppins-Light.ttf') format('woff');
+}
+
+@font-face{
+	font-family: heebo;
+	src:local('Heebo-VariableFont_wght'),url('../libs/fonts/Heebo/Heebo-VariableFont_wght.ttf') format('woff');
+}
+
+body{
+    margin: 0 auto;
+}
+
+.covidupdate{
+    width: 100%;
+    height: 40px;
+    background:#FAFAFA;
+    display: flex;
+}
+
+.covidupdate h5{
+    margin-top: 3px;
+    color:hsl(150, 100%, 30%);
+    font-size: 20px;
+    padding-left: 150px;
+}
+
+.covidupdate button{
+    width: 150px;
+    height: 35px;
+    background-color:#26AF6A;
+    text-align:center;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-menu{
+    line-height: 70px;
+    padding-left: 150px;
+    background:#DEF3E9;
+    
+    display: flex;
+    position: absolute;
+    position: sticky;
+    top:0;
+}
+
+.top-menu .menu-header h2{
+   font-family: poppins;
+    margin: 0;
+    color:#000;
+    margin-right: 50px;
+}
+
+.top-menu .menu-list a{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 900;
+    color: #000;
+    
+    margin:0 0 0 40px;
+    text-decoration: none;
+}
+
+.top-menu .menu-list .input{
+    margin-left: 50px;
+    width: 120px;
+    height: 25px;
+    border: none;
+    border-bottom: 3px solid #000;
+}
+
+.top-menu a:hover{
+    color:hsl(150, 100%, 30%);
+    text-decoration: underline;
+}
+
+.slider{
+    width:1350px;
+    height: 450px;
+    background: url(../img/k4.jpg);
+    background-size: contain;
+    
+    animation-name:ani;
+    animation-duration:15s;
+    animation-iteration-count: infinite;
+}
+
+.top-menu ~ h3{
+    text-align: center;
+    margin-top: 30px;
+    font-family: heebo;
+    font-size: 22px;
+    background-color: aquamarine;
+}
+
+.popular-places{
+    margin-bottom: 8px;
+    color: #FFF;
+
+    display: flex;
+}
+
+.places{
+    width: 400px;
+    height: 400px;
+    margin:10px 0 20px 20px;
+
+    position: relative;    
+    
+}
+
+.places img{
+    width:400px;
+    height:400px;
+    float: left;
+}
+
+.places img:hover{
+    opacity: 0.9;
+}
+
+.places p{
+    text-align: center;
+	font-family: heebo;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    top: 10;
+}
+
+.clr{
+    clear: both;
+}
+
+.popular-places ~ h3{
+    margin-top: 80px;
+}
+
+.polarres{
+        margin-left:20px;   
+}
+  
+.restruent{
+    width:400px;
+    height:400px;
+    border-radius:15px 15px;
+    margin:20px 0 30px 20px;
+    background:#DEF3E9;
+
+    float:left;
+    transition:0.5s all;
+}
+
+.restruent a{
+    text-decoration: none;
+    color: #000;
+}
+
+.restruent p,h2{
+    text-align: center;
+}
+
+.restruent p{
+    font-size: 20px;
+}
+
+.restruent img{
+    width:400px;
+    height:300px;
+       
+    border-radius:15px 15px 0 0;
+}
+
+.restruent:hover{
+    box-shadow:6px 6px 20px 10px #5f4B8BFF;
+    transform:translate(5px);
+}
+
+.region-menu a{
+    font-size: 23px;
+    font-weight: 900;
+    color: #000;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.region-menu a:hover{
+    color:hsl(150, 100%, 30%);
+    text-decoration: underline;
+}
+    
+.region-menu nav ul li{
+    padding-left: 50px;
+    list-style-type: none;
+        
+    float: left;
+}
+
+.clr{
+    clear: both;
+}
+
+.regions{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #fff;  
+       
+    display: flex;
+    position: relative;
+}
+
+.region-place{
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+        
+    float: left;  
+}
+
+.region-place img{
+    width: 400px;
+    height: 300px;
+    transition: 3s;
+}
+
+.region-place img:hover{
+    transform: scale(1.1);
+}
+  
+.region-place p{
+    margin:0;
+    width: 380px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    background: rgba(0, 0, 0, 0.5); 
+       
+    position: absolute;
+    bottom: 0;
+}
+
+.about-us{
+    background-color: black;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+}
+
+.about-us h2{
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 20px;
+    background:#DEF3E9;
+
+    display:flex ;
+}
+ 
+.about{
+    width: 33%;
+    text-align: center;
+}
+
+.about p{
+    font-size: 20px;
+}
+
+
+
+.contact-us{
+    width: 35%;
+}
+
+.contact-us h3{
+    font-size: 22px;
+    text-align: center;
+}
+
+.contact-us ul li a i{
+    color:#000;
+    margin-bottom: 30px;
+    float: left;
+    margin:17px 0 0 50px;
+}
+
+.map{
+    width: 34%;
+}
+
+.icon ul li{
+    list-style-type: none;
+}
+
+.copy{
+    margin: 0;
+    padding: 1px;  
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    background: black;
+}
+
+.copy p{
+    font-size: larger;
+}
+
+.viewall a{
+    width: 120px;
+    height: 90px;
+    font-size: 25px;
+    padding: 7px;
+    text-decoration: none;
+    color: #000;
+    background-color: #26AF6A;
+    border-radius: 20px; 
+}
+
+.viewall{
+    text-align: center;  
+}
+
+.pataners img{
+    width: 150px;
+    height: 100px;
+    margin:20px 30px 0 10px;
+}
+
+.pataners img:first-of-type{
+    margin-left: 40px;
+}
+
+@keyframes ani{
+    25%{
+        background: url(../img/k4.jpg);
+    }
+    50%{
+        background: url(../img/k2.jpg);
+    }
+    75%{
+        background: url(../img/k3.jpg);
+    }
+    100%{
+        background: url(../img/k1.jpg);
+    }
+}
